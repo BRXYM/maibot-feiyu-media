@@ -1,5 +1,13 @@
 # 肥鱼会话媒体回复
 
+## 本地修改说明（2026-11-24）
+
+好友名称有歧义时列出候选，支持按序号确认；确认后接着执行原请求。引用语音会结合消息类型和可用源文件选择发送方式。实现见 `contact_choice.py`、`quoted_delivery.py` 和 `proactive.py`。
+
+用户明确教过的接话方式保存在对应私聊，遇到相似场景可召回。默认人设在平常请求中会复查“啧，来了来了”等不耐烦的开场。实现见 `reply_lessons.py`、`quality.py` 和 `plugin.py`。
+
+对应功能提交 `7410ea6`。[公开版本 v1.4.7](https://github.com/BRXYM/maibot-feiyu-media/releases/tag/v1.4.7)
+
 基于 QQ 私聊会话的语音、表情与本地生图工具。
 
 ## 安装与使用
