@@ -1,0 +1,6 @@
+aiohttp
+httpx
+pydantic>=2
+Pillow
+pypinyin
+rapidfuzz

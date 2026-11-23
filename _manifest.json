@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "id": "github.brxym.feiyu-media",
   "name": "肥鱼会话媒体回复",
-  "version": "1.4.4",
+  "version": "1.4.7",
   "description": "向当前QQ私聊发送肥鱼语音、图片和表情，异步任务绑定原会话。",
   "author": {
     "name": "BRXYM",
@@ -26,12 +26,16 @@
     "chat.open_session",
     "send.text",
     "api.call",
-    "message.get_recent"
+    "message.get_recent",
+    "personality.get_current",
+    "llm.generate",
+    "llm.embed"
   ],
   "i18n": {
     "default_locale": "zh-CN",
     "supported_locales": [
       "zh-CN"
     ]
-  }
+  },
+  "plugin_type": "media"
 }
